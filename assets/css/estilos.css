@@ -12,8 +12,15 @@ body {
 }
 /* Hero Section */
 
-#Hero-Section {
+#Hero-Section1 {
   background-image: url("../img/ftv_bg-hero2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+#Hero-Section2 {
+  height: 100vh;
+  background-image: url("../img/hero2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
