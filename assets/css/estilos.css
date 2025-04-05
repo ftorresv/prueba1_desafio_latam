@@ -1,0 +1,59 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+/* imagen de marca personal */
+.logo-image{
+  width: 130px;
+  height: auto
+}
+/* modificación de color de fondo de barra de navegación */
+.custom-navbar{
+  background-color: #737373 !important;
+}
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/ftv_bg-hero2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+/* Mis trabajos */
+
+#Mis-trabajos .image-left {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+#Mis-trabajos .image-center {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.custom-trabajos{
+  background-color: #FFB76B !important;
+}
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
+/* modificación color footer */
+.custom-footer{
+  background-color: #737373 !important;
+}
